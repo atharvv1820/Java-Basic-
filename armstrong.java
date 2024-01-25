@@ -10,7 +10,7 @@ class armstrong
 	  num=n;
 	  while(n>0)
 	  {
-	     d=num%10;
+	         d=num%10;
 		 sum=sum+(d*d*d);
 		 num=num/10;
 	  }
